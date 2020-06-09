@@ -1,0 +1,5 @@
+const timer = function(time){
+  return new Promise((resolve,reject) =>{
+    setTimeout(()=>resolve(),time||0)
+  })
+}
